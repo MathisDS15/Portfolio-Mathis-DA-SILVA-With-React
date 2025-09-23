@@ -1,12 +1,20 @@
 import { div } from 'framer-motion/client'
 import './App.css'
+import Header from './components/Header/Header'
+import Hero from './components/Hero/Hero'
+import About from './components/About/About'
+import Experiences from './components/Experiences/Experiences'
+import Skills from './components/Skills/Skills'
+import Projects from './components/Projects/Projects'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
-fonction App() {
+function App() {
   return (
     <div className="App">
       <header>
           <nav>
-            {/* Navbar */}
+            {Header()}  
           </nav>        
       </header>
       <main>
