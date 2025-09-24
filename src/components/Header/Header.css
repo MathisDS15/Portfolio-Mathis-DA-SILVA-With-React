@@ -2,25 +2,53 @@
     color: #F0EBD8;
     background: #1D2D44;
     font-family: "Trajan Pro";
-    font-size: 400;
+    font-weight: 400;
+    width: 1000px;
+    height: 70px;
+    border-radius: 0 0 50px 50px ;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    transition: all 0.3s ease;
 }
 
+/*
 .header--scrolled {
-
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+    transform: none;
+    transition: all 0.3s ease;
 }
+*/
 
 .navbar-container {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .logo {
+    display: block;
     object-fit: contain;
-    height: 50px;
-    width: 50px; 
+    height: 35px;
+    width: 35px;
 }
 
 .navbar-list {
-
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-item {
@@ -28,10 +56,14 @@
 }
 
 .navbar-link {
+    font-size: 1.1rem;
     text-decoration: none;
     color: #F0EBD8;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
 }
 
 .navbar-link:hover {
-    transform: translateY(-2px);
+    transform: translateY(-4px)scale(1.15);
+    background-color: rgb(29, 45, 68, 0.1);
 }

@@ -1,25 +1,15 @@
-import { div } from 'framer-motion/client'
-import './App.css'
 import Header from './components/Header/Header'
-import Hero from './components/Hero/Hero'
-import About from './components/About/About'
-import Experiences from './components/Experiences/Experiences'
-import Skills from './components/Skills/Skills'
-import Projects from './components/Projects/Projects'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
+import Home from './components/Home/Home'
+
 
 function App() {
   return (
     <div className="App">
-      <header>
-          <nav>
-            {Header()}  
-          </nav>        
-      </header>
+      <Header />
       <main>
-        <section id="hero">
-          {/* Hero Section */}
+        <section id="home">
+          <Header />
+          <Home />
         </section>
         <section id="about">
 
@@ -43,3 +33,5 @@ function App() {
     </div>
   )
 }
+
+export default App
