@@ -1,0 +1,40 @@
+.home {
+    background: #0D1321;
+    color: #F0EBD8;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Trajan Pro";
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 100%;
+}
+
+.home-picture {
+
+}
+
+.home-profile-picture {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.home-text {
+    text-align: center;
+    max-width: 1000px;
+}
+
+.home-text h1 {
+    font-size: 2.5rem;
+}
+
+.home-text h2 {
+    font-size: 1.75rem;
+}
