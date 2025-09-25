@@ -1,5 +1,6 @@
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
+import About from './components/About/About'
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
           <Home />
         </section>
         <section id="about">
-
+          <Header />
+          <About />
         </section>
         <section id="experiences">
 
