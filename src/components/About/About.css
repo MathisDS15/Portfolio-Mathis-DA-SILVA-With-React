@@ -50,17 +50,54 @@
 .about-subbox-card-1,
 .about-subbox-card-2,
 .about-subbox-card-3 {
-    border: #F0EBD8;
+    border: #F0EBD8 solid;
     border-radius: 40px;
+    margin: 1.5rem;
+}
+
+.about-subbox-card-1,
+.about-subbox-card-2, 
+.about-subbox-card-3 {
+    
 }
 
 .about-subbox-card-1, 
 .about-subbox-card-3 {
-
+    display: grid;
+    grid-template-columns: 0.75fr 3fr;
 }
 
 .about-subbox-card-2 {
-    
+    display: grid;
+    grid-template-columns: 3fr 0.75fr;
+}
+
+.about-card-1-title,
+.about-card-3-title {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+.about-card-2-title {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+.about-card-1-text,
+.about-card-3-text {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.about-card-2-text {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .about-subbox-card-1 h4,
