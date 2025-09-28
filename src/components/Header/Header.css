@@ -51,19 +51,17 @@
     padding: 0;
 }
 
-.navbar-item {
-
-}
-
 .navbar-link {
     font-size: 1.1rem;
     text-decoration: none;
     color: #F0EBD8;
     border-radius: 4px;
     padding: 0.5rem 1rem;
+    transition: 0.75s;
 }
 
 .navbar-link:hover {
-    transform: translateY(-4px)scale(1.15);
     background-color: rgb(29, 45, 68, 0.1);
+    transform: scale(1.015);
+    transition: 0.75s;
 }

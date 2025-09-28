@@ -28,7 +28,7 @@ function About () {
                         </div>                            
                         <div className="about-subbox-card-2">
                             <div className="about-card-2-text">
-                                <li>January 2025 to June 2025 - </li>
+                                <li>January 2025 to June 2025 - Second year of engineering school</li>
                                 <li>July 2025 to December 2025 - Internship at Uslter University</li>
                                 <li>September 2024 to June 2025 - First year of engineering school</li>
                                 <li>September 2022 to June 2024 - Preparatory </li>

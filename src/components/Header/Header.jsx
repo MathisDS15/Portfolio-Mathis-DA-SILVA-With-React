@@ -10,7 +10,7 @@ function Header() {
                         <img src="/images/portfolio_logo.svg" className="logo" alt="" />
                     </div>
                     <ul className="navbar-list">
-                        <li className="navbar-item"><a href="#hero" className="navbar-link">Home</a></li>
+                        <li className="navbar-item"><a href="#home" className="navbar-link">Home</a></li>
                         <li className="navbar-item"><a href = "#about" className="navbar-link">About</a></li>
                         <li className="navbar-item"><a href = "#experiences" className="navbar-link">Experiences</a></li>
                         <li className="navbar-item"><a href = "#skills" className="navbar-link">Skills</a></li>
